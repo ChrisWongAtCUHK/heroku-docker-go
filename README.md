@@ -18,3 +18,8 @@ heroku stack:set container
 heroku container:push web
 heroku container:release web
 ```
+
+Build and run container with `docker-compose.yml`:
+```
+docker compose up --build
+```
